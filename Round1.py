@@ -38,7 +38,7 @@ if __name__ == '__main__':
                                 test = random.choice(["vertical", "horizontal"])
                                 print(test)
                                 g.Blast(x+d[0], y+d[1],test)
-                                
+                                # build bases (with a current counter of 5, so kinda random for now)
                                 if (counter == 5 and g.baseNum < 3):
                                     g.BuildBase(x+d[0],x+d[0])
                                     counter = 0
